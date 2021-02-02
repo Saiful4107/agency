@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* =============================================================
+       *************** common css end **************
+==============================================================*/
+
+
+
+/* =============================================================
+       *************** Menu Part Start **************
+==============================================================*/
+#menu_part{
+    height: 100px;
+}
+
+.menu_txt{
+    width: 20%;
+    float: left;
+}
+.menu_txt h2{
+    color: #44c0c2;
+    font-size: 43px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    line-height: 100px;
+}
+.main_menu{
+    width: 80%;
+    float: left;
+}
+.main_menu ul li{
+    float: left;
+}
+.main_menu ul{
+    float: right;
+}
+.main_menu ul li a{
+    color: #484c55;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 20px;
+    line-height: 100px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.main_menu ul li a:hover{
+    color: #6ad1d3;
+    background: #f8f9fb;
+    border-bottom: 3px solid #6ad1d3;
+}
+/* =============================================================
+       *************** Menu Part end **************
+==============================================================*/
+
+
+
+/* =============================================================
+       *************** Banner Part Start **************
+==============================================================*/
+#banner_part{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#banner_part h1{
+    color: #ffffff;
+    font-size: 63px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 127px;
+}
+#banner_part p{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 37px;
+    padding-top: 21px;
+    padding-bottom: 50px;
+}
+.banner_button a{
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 22px 42px;
+    border: 3px solid #ffffff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.banner_button{
+    padding-bottom: 145px;
+}
+.banner_button a:hover{
+    color: #ffffff;
+    background: #49cbcd;
+    border-color: #49cbcd;
+}    
+/* =============================================================
+       *************** Banner Part end **************
+==============================================================*/
+
+
+
+/* =============================================================
+       *************** Service Part Start *************
+==============================================================*/
+#service_part{
+    padding: 98px 0;
+    text-align: center;
+}
+.service_col {
+	width: 21.47%;
+	float: left;
+	margin-right: 55px;
+}
+.service_col:nth-child(4){
+    margin-right: 0;
+}
+.service_icon{
+    height: 99px;
+    width: 99px;
+    background: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 99px;
+    border: 2px solid #49cbcd;
+    margin: 0 auto;
+    position: relative;
+}
+.service_icon i{
+    height: 37px;
+    color: #49cbcd;
+    position: absolute;
+    left: 45px;
+    top: 0px;
+    font-size: 40px;
+    line-height: 99px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.service_txt h2{
+    color: #4e525d;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 42px;
+}
+.service_txt p{
+    color: #4e525d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    padding-bottom: 15px;
+    padding-top: 17px;
+}
+.service_txt a{
+    color: #ffffff;
+    background: #49cbcd;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 16px;
+    border: 3px solid #49cbcd;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+/* =============================================================
+       *************** Service Part end **************
+==============================================================*/
+
+
+
+/* =============================================================
+       *************** Portfolio Part Start **************
+==============================================================*/
+#portfolio_part{
+    background: #f1f1f1;
+    padding: 45px 0 100px;
+}
+.port_txt h2{
+    color: #4e525d;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 53px;
+}
+.port_gal ul li{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.port_gal ul li:nth-child(3),
+.port_gal ul li:nth-child(6){
+    margin-right: 0;
+}
+.port_gal ul li img{
+    width: 100%;
+    max-width: 100%;
+}
+.port_gal ul{
+    padding-bottom: 29px;
+}
+.port_button{
+    text-align: center;
+}
+.port_button a{
+    color: #ffffff;
+    background: #49cbcd;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 24px 42px;
+    border: 3px solid #49cbcd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* =============================================================
+       *************** Portfolio Part end **************
+==============================================================*/
+
+
+
+
+/* =============================================================
+       *************** Team Part Start **************
+==============================================================*/
+#team_part{
+    padding: 93px 0 110px;
+    text-align: center;
+}
+.team_col {
+	float: left;
+	width: 21.47%;
+	margin-right: 55px;
+}
+.team_col:nth-child(4){
+    margin-right: 0;
+}
+.team_img img{
+    width: 100%;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.team_img{
+    position: relative;
+}
+.team_img .overlay{
+    position: absolute;
+    left: 27px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.team_img .overlay a{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 200px;
+    font-size: 56px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: #f46d6d;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.team_img:hover .overlay{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.team_txt h2{
+    color: #4e525d;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 60px;
+}
+.team_txt h5{
+    color: #4e525d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.team_txt p{
+    color: #4e525d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    padding-top: 20px;
+}
+/* =============================================================
+       *************** Team Part end **************
+==============================================================*/
+
+
+
+
+
+/* =============================================================
+       *************** Package Part Start **************
+==============================================================*/
+#package_part{
+    padding: 50px 0;
+    text-align: center;
+    background: #f1f1f1;
+}
+.package_col {
+	width: 31.51%;
+	float: left;
+	margin-right: 32px;
+	padding-top: 66px;
+}
+.package_col:nth-child(3){
+    margin-right: 0;
+}
+.package_col h2{
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    height: 75px;
+    line-height: 75px;
+    background: #485460;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.package_col p{
+    color: #485460;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    height: 68px;
+    line-height: 68px;
+    border: 2px solid #f8f9fb;
+    background: #ffffff;
+}
+.package_col ul li{
+    color: #8c9299;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #ecf0f1;
+    background: #ffffff;
+}
+.package_col .pac_but{
+    background: #f8f9fb;
+    border: 1px solid #f8f9fb;
+}
+.package_col .pac_but a{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 50px;
+    border: 2px solid #788492;
+    border-radius: 5px;
+    background: #788492;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.package_col:hover h2{
+    background: #49cbcd;
+}
+.package_col:hover a{
+    background: #49cbcd;
+    border-color: #49cbcd;
+}    
+/* =============================================================
+       *************** Package Part end **************
+==============================================================*/
+
+
+
+
+/* =============================================================
+       *************** Client Part Start **************
+==============================================================*/
+#client_part{
+    padding: 135px 0 100px;
+    text-align: center;
+}
+.client_head h2{
+    color: #4e525d;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.client_icon1{
+    float: left;
+    width: 21%;
+    color: #959595;
+    text-align: left;
+    padding-top: 38px;
+    padding-left: 19px;
+}
+.client_icon1 i{
+    height: 26px;
+    color: #959595;
+}
+.client_txt {
+    float: left;
+    width: 57.15%;
+    padding-top: 27px;
+}
+.client_icon2{
+    float: left;
+    width: 21%;
+    text-align: right;
+    color: #959595;
+    padding-top: 38px;
+    padding-right: 19px;
+}
+.client_icon2 i{
+    height: 26px;
+    color: #959595;
+}
+.client_txt p{
+    color: #4e525d;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.client_txt h4{
+    color: #9a8faf;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 32px;
+}
+/* =============================================================
+       *************** Client Part end **************
+==============================================================*/
+
+
+
+/* =============================================================
+       *************** Footer Part Start **************
+==============================================================*/
+#footer_part{
+    height: 691px;
+    background: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer_head h2{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 109px;
+    padding-top: 90px;
+}
+.footer_contact{
+    width: 49.7%;
+    float: left;
+    padding-right: 142px;
+}
+.footer_form{
+    width: 49.3%;
+    float: left;
+    text-align: right;
+}
+.footer_contact h3{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 9px;
+}
+.footer_contact p{
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+    padding-bottom: 40px;
+}
+.foot_social a .fab{
+    padding: 11px 16px 10px 15px;
+    color: #fff;
+    border-radius: 50%;
+    background: #3b5997;
+    font-size: 23px;
+    margin-right: 15px;
+}
+.foot_social a .twit{
+    padding: 11px 11px 12px 11px;
+    color: #fff;
+    border-radius: 50%;
+    background: #3ec2f3;
+    font-size: 23px;
+    margin-right: 15px;
+}
+.foot_social a .google{
+    padding: 12px 10px;
+    color: #fff;
+    border-radius: 50%;
+    background: #e44c41;
+    font-size: 23px;
+}
+.foot_add{
+    padding-top: 22px;
+}
+.foot_add a{
+    display: block;
+    color: #bface2;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.fotter_but{
+    text-align: right;
+}
+.fotter_but a{
+    color: #ffffff;
+    background: #49cbcd;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 55px;
+    margin-top: 31px;
+}
+.footer_form input{
+    width: 47.5%;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 31px;
+    margin-right: 20px;
+}
+.footer_form input:nth-child(2){
+    margin-right: 0;
+}
+.footer_form textarea{
+    height: 179px;
+    width: 570px;
+    padding: 10px;
+    border-radius: 3px;
+}
+/* =============================================================
+       *************** Footer Part End **************
+==============================================================*/
